@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Gluten:wght@400;700&display=swap");
+
+:root {
+  --primary-color: rgb(163, 91, 107);
+  --secondary-color: rgb(107, 24, 42);
+}
+body {
+  font-family: "Gluten", cursive;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-color: var(--primary-color);
+  color: #fff;
+  font-size: 3rem;
+  font-weight: bold;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#input-text {
+  width: 80%;
+  height: 10vh;
+  margin: 2rem;
+  padding: 1rem;
+  font-size: 25px;
+  border-color: var(--primary-color);
+}
+
+.btn-translate button {
+  background-color: var(--secondary-color);
+  color: #fff;
+  width: 300px;
+  height: 50px;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 1rem;
+  margin-bottom: 50px;
+}
+
+.output {
+  width: 80%;
+  margin: auto;
+  /* height: 10vh; */
+  padding: 1rem;
+  font-size: 25px;
+  border: 2px solid var(--primary-color);
+  text-align: start;
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: #fff;
+  height: 9rem;
+  margin-top: 50px;
+}
+.footer-heading {
+  font-size: x-large;
+  font-weight: bold;
+  margin-top: 30px;
+  padding: 10px;
+}
+.footer-text {
+  font-size: 20px;
+  padding: 10px;
+}
